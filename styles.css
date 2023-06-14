@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#game-over {
+    display: none;
+    font-size: 30px;
+    text-align: center;
+}
+
+#score, #lives {
+    margin-top: 20px;
+}
+
+#restart {
+    display: none;
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+}
+
+.falling-word {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    font-size: 20px;
+}
+
+@keyframes fall {
+    0% { top: 0; }
+    100% { top: 90vh; }
+}
